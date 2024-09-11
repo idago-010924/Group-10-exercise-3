@@ -1,0 +1,27 @@
+Based on the information provided, the Entity-Relationship (ER) Diagram for the hotel room booking system would consist of the following entities:
+
+ * Guest
+   * Attributes:
+     * First Name
+     * Last Name
+     * Phone Number 
+     * Email Address
+
+ * Reservation
+   * Attributes:
+     * Reservation ID (primary key)
+     * Check-In Date
+     * Check-Out Date
+     * Number of Guests
+
+ * Room
+   * Attributes:
+     * Room Type
+
+The relationships between these entities would be as follows:
+ * A Guest can make one or more Reservations.
+ * A Reservation is for one Room.
+
+This is a basic ER Diagram for a hotel room booking system. Additional entities and attributes could be added to meet the specific needs of a particular system. For example, you could add an entity for Payment to store information about how the guest will be paying for their reservation.
+
+
